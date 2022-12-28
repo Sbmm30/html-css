@@ -1,3 +1,16 @@
-h1 {
-    color: green;
+.btn {
+  width: 150px;
+  background-color: #efefef;
+
+  &::before {
+    content: "Pasa por encima";
+  }
+
+  &:hover {
+    color: white;
+    background-color: green;
+    &::before {
+      content: "¡Hecho!";
+    }
+  }
 }
