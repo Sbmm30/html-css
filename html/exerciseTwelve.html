@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- /.modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.modal -->
+    <!-- container -->
+    <div class="container">
+        <!-- section one -->
+        <div id="section-1">
+            <!-- jumbotron -->
+            <div class="jumbotron">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                    attention
+                    to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.
+                </p>
+                <p class="lead">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                    </button>
+                </p>
+            </div>
+            <!-- /.jumbotron -->
+        </div>
+        <!-- /.section one  -->
+        <hr class="border border-danger border-2 opacity-50">
+        <!-- section two -->
+        <div id="section-2">
+            <div class="mb-3">
+                <label for="l-name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="l-name" placeholder="Alex Julian">
+            </div>
+            <div class="mb-3">
+                <label for="l-phonenumber" class="form-label">Phone number</label>
+                <input type="number" class="form-control" id="l-phonenumber" placeholder="+51 999999999">
+            </div>
+            <div class="mb-3">
+                <label for="l-message" class="form-label">Message</label>
+                <textarea class="form-control" id="l-message" rows="3" placeholder="Max 100 characters"></textarea>
+            </div>
+        </div>
+        <!-- /.section two -->
+        <hr class="border border-danger border-2 opacity-50">
+        <!-- section three -->
+        <div id="section-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Sebastian Mori</h5>
+                    <p class="card-text">Future front-end developer 😁😋🙂</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/Sbmm30" class='text-decoration-none' target="_blank">@Sbmm30</a>
+                  </div>
+            </div>
+        </div>
+        <!-- /.section three -->
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
